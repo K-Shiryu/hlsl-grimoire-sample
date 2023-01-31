@@ -16,7 +16,7 @@ struct VSOutput
 float4x4 g_worldMatrix : register(b0);
 
 // 頂点シェーダー
-// 1. 引数は変換前の頂点情報
+// 1. 引数は変換前の頂点情報.
 // 2. 戻り値は変換後の頂点情報
 VSOutput VSMain(VSInput In)
 {
